@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Roboto, 'Segoe UI';
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: Roboto;
+    color: grey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 125px 50px 125px;
+    height: 100px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img[alt="logo"] {
+    max-height: 70px;
+    margin: 15px 15px 15px 90px;
+}
+
+.left-buttons {
+    display: flex;
+    width: 45%;
+    margin: 10px 0;
+}
+
+.left-buttons a {
+    display: flex;
+}
+
+.left-buttons p {
+    margin: 0;
+    font-weight: 200;
+    color: grey;
+}
+
+.fas {
+    font-size: 20px;
+    margin: 0 3px;
+    color: #1C91D0;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 100px 20px 0px;
+    width: 25%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-style: none;
+    width: 29%;
+    background-color: #1C91D0;
+    color: whitesmoke;
+    font-size: 22px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.buttons:hover {
+    background-color: #165c80;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    margin: 20px 125px 20px 125px;
+}
+
+hr {
+    border-top: 1px solid #d4d4d4;
+}
+
+.under-line {
+    display: flex;
+    justify-content: space-between;
+    color: #1C91D0;
+    font-weight: 300;
+}
+
+footer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    width: 25px;
+    margin: 0 5px;
+    color: #1C91D0;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.fal {
+    font-size: 25px;
+}
+
+footer a {
+    color: #1C91D0;
+}
+
+.font-h2 h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: #1C91D0;
+}

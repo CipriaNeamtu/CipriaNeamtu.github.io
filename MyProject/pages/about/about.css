@@ -1,0 +1,112 @@
+#main-about {
+    display: flex;
+    margin: 20px 125px 50px 125px;
+}
+
+#left-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C91D0;
+    border-radius: 15px 0 0 15px;
+    width: 25%;
+    margin: 20px 0 75px 125px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about img {
+    display: flex;
+    margin: 30px 0 0 0;
+    width: 30%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#about p {
+    color: whitesmoke;
+}
+
+#name {
+    font-size: 30px;
+    margin: 15px 0 5px 0px;
+}
+
+#about hr {
+    width: 15%;
+}
+
+#function {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 5px 0 15px 0px;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+#address h3 {
+    margin: 10px 0 0 0;
+    font-weight: 400;
+}
+
+#address .fas {
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+#pdf {
+    display: flex;
+    color: whitesmoke;
+}
+
+#pdf .far {
+    padding: 10px 5px 0 25px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+#pdf a {
+    display: flex;
+    color: whitesmoke;
+}
+
+#right-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 0 15px 15px 0;
+    margin: 20px 125px 75px 0;
+    box-sizing: border-box;
+    padding: 25px 100px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 0%),
+        0 6px 20px 0 rgb(0 0 0 / 12%);
+}
+
+.right-info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: #1C91D0;
+    font-weight: 300;
+}
+
+.right-info h4 {
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.right-info p {
+    margin: 0;
+    color: grey;
+    line-height: 1.5;
+}
