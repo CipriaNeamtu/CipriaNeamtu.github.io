@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    margin: 0 5px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #0B3D91;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #F83D22;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    flex-direction: column;
+}
+
+#image {
+    width: 35%;
+}
+
+#error {
+    margin: 180px 0;
+    color: #fc3d21;
+    font-size: 18px;
+    font-weight: 100;
+}
