@@ -12,17 +12,36 @@
 </head>
 
 <body>
-    <header>
-        <a href="./home.html"><img src="../../assets/media/logo/logo.png" alt="logo"></a>
-        <div class="left-buttons">
-            <a href="./home.html"><i class="fas fa-home"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i>
-                <p>Contact</p>
-            </a>
-        </div>
-        <div class="right-buttons">
-            <a class="buttons" href="../about/about.html">About Me</a>
-            <a class="buttons" href="../projects/projects.html">Projects</a>
+    <header class="set-header">
+        <div class="col-d-1 col-u-1 col-1">
+            <div class="col-d-2 col-u-2 col-2">
+                <a href="./home.html">
+                    <img src="../../assets/media/logo/logo.png" alt="logo">
+                </a>
+                <!-- left buttons -->
+                <div class="left-buttons ">
+                    <a href="./home.html"><i class="fas fa-home fa-customize"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i>
+                        <p>Contact</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- dropdown buttons -->
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-chevron-circle-down"></i>Info</button>
+                <div class="dropdown-content">
+                    <a href="../about/about.html">About Me</a>
+                    <a href="../projects/projects.html">Projects</a>
+                    <a href="../../pages/hobbies/hobbies.html">Hobbies</a>
+                </div>
+            </div>
+
+            <!-- right buttons -->
+            <div class="col-d-3 col-u-3 col-3">
+                <a class="buttons" href="../about/about.html">About Me</a>
+                <a class="buttons" href="../projects/projects.html">Projects</a>
+            </div>
         </div>
     </header>
 
@@ -53,7 +72,9 @@
                     <h1>Slider</h1>
                     <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
-                <a class="buttons" href="../hobbies/hobbies.html">Hobbies</a>
+                <div id="slider-button">
+                    <a class="buttons" href="../hobbies/hobbies.html">Hobbies</a>
+                </div>
             </div>
 
         </section>
@@ -62,7 +83,7 @@
 
     <footer>
         <ul>
-            <li><a href="https://www.facebook.com/daenvgiellbv" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.facebook.com/Timpulinimagini" target="blank"><i class="fab fa-facebook-square"></i></a></li>
             <li><a href="https://www.instagram.com/ciprianeamtu" target="blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://twitter.com/CipriaNeamtu" target="blank"><i class=" fab fa-twitter"></i></a></li>
             <li><a href="https://www.linkedin.com/in/ciprian-neamtu" target="blank"><i class="fab fa-linkedin"></i></a></li>
@@ -75,6 +96,7 @@
 
     </footer>
     <script src="./home.js"></script>
+    <script src="../../all.js"></script>
 </body>
 
 </html>

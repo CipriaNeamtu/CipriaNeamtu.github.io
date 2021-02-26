@@ -3,6 +3,91 @@
     src: url(./assets/fonts/Roboto-Regular.ttf);
 }
 
+
+/* Desktops view: */
+@media only screen and (min-width: 500px) {
+
+    .col-d-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .col-d-2 {
+        display: flex;
+    }
+
+    /* right buttons */
+    .col-d-3 {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 100px 20px 0px;
+        width: 400px;
+    }
+
+}
+
+/* Tablets view: */
+@media only screen and (max-width: 768px) {
+
+    /* header content */
+    .col-u-1 {
+        display: flex;
+        width: 100%;
+    }
+
+    /* logo */
+    .col-u-2 {
+        display: flex;
+        margin-left: -50px;
+    }
+
+    /* right buttons */
+    .col-u-3 {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 20px 20px 0px;
+        width: 400px;
+    }
+
+}
+
+/* Mobile phones view: */
+
+@media only screen and (max-width: 500px) {
+
+    /* header content */
+    .set-header {
+        margin: 20px 50px 50px 50px;
+    }
+
+    .set-header .dropdown {
+        display: flex;
+    }
+
+    .set-header .left-buttons {
+        font-size: 220%;
+    }
+
+    .col-1 {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    /* logo */
+    .col-2 {
+        display: flex;
+        width: 85%;
+    }
+
+    /* right buttons */
+    .col-3 {
+        display: none;
+    }
+
+}
+
 a:link {
     text-decoration: none;
 }
@@ -11,26 +96,31 @@ body {
     background-color: #FAFAFA;
     font-family: Roboto;
     color: grey;
+    font-size: 1vw;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     margin: 20px 125px 50px 125px;
-    height: 100px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.logo {
+    display: flex;
+}
+
 img[alt="logo"] {
-    max-height: 70px;
+    display: flex;
+    max-width: 60%;
+    height: auto;
     margin: 15px 15px 15px 90px;
 }
 
 .left-buttons {
     display: flex;
-    width: 45%;
     margin: 10px 0;
 }
 
@@ -39,22 +129,78 @@ img[alt="logo"] {
 }
 
 .left-buttons p {
-    margin: 0;
+    margin: -2px 0;
     font-weight: 200;
     color: grey;
 }
 
 .fas {
-    font-size: 20px;
+    font-size: 100%;
     margin: 0 3px;
     color: #1C91D0;
+}
+
+.dropdown {
+    display: none;
+    flex-direction: column;
+    width: 20%;
+    margin: 12% 0 0 70%;
+    position: absolute;
+}
+
+.dropdown .fas {
+    font-size: 80%;
+    color: whitesmoke
+}
+
+.dropdown button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    width: 100%;
+    background-color: #FE5E00;
+    color: whitesmoke;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #165c80;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-content {
+    background-color: #1C91D0;
+    display: inline-block;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+}
+
+.dropdown-content a {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    color: whitesmoke;
+}
+
+.dropdown-content a:hover {
+    background-color: #165c80;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .right-buttons {
     display: flex;
     justify-content: flex-end;
     margin: 20px 100px 20px 0px;
-    width: 25%;
+    width: 400px;
 }
 
 .buttons {
@@ -64,9 +210,10 @@ img[alt="logo"] {
     margin: 0 10px;
     border-style: none;
     width: 29%;
-    background-color: #1C91D0;
+    height: 100%;
+    background-color: #FE5E00;
     color: whitesmoke;
-    font-size: 22px;
+    font-size: 1.1vw;
     border-radius: 10px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -77,10 +224,6 @@ img[alt="logo"] {
     background-color: #165c80;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-a:link {
-    text-decoration: none;
 }
 
 footer {
@@ -112,11 +255,12 @@ footer ul li {
 }
 
 .fab {
-    font-size: 25px;
+    font-size: 125%;
+    /* 25px */
 }
 
 .fal {
-    font-size: 25px;
+    font-size: 100%;
 }
 
 footer a {
