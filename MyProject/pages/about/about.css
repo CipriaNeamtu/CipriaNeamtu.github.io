@@ -1,10 +1,46 @@
 @media only screen and (max-width: 500px) {
     body #main-about {
         margin: 20px 15px 20px 15px;
+        flex-wrap: wrap;
     }
 
     body #left-content {
-        margin: 20px 0 75px 0;
+        margin: 20px 0 0 0;
+        border-radius: 15px 15px 0 0px;
+        width: 100%;
+    }
+
+    #left-content #address {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    #left-content #pdf {
+        font-size: 10px;
+    }
+
+    #left-content #pdf .far {
+        font-size: 10px;
+    }
+
+    body #right-content {
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+        margin: 0;
+        padding: 25px 25px;
+    }
+
+    #right-content .right-info {
+        width: 100%;
+    }
+
+    #right-content .right-info h4 {
+        font-size: 15px;
+    }
+
+    #right-content .right-info p {
+        font-size: 10px;
+        margin-left: 28px;
     }
 }
 
