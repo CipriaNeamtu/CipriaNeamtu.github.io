@@ -1,0 +1,10 @@
+#main-hobbies {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 125px 75px 125px;
+}
+
+.categories {
+    display: flex;
+    padding: 0 10%;
+}
