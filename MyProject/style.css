@@ -70,6 +70,13 @@
         font-size: 15px;
     }
 
+    .dropdown .dropbtn {
+        padding: 10%;
+        font-size: 25px;
+        width: 60%;
+        margin-left: 15%;
+    }
+
     .set-header .left-buttons {
         font-size: 13px;
     }
