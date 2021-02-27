@@ -2,26 +2,44 @@
     body #main-projects {
         margin: 20px 15px 20px 15px;
     }
+
+    #main-projects .project-content {
+        font-size: 10px;
+    }
+
+    #main-projects .project-content p {
+        margin: 0;
+        line-height: 1.4;
+    }
 }
 
 #main-projects {
     display: flex;
+    flex-direction: column;
     margin: 20px 125px 75px 125px;
 }
 
-#nasaApi {
-    width: 70%;
-}
-
-#nasa-info {
-    width: 30%;
+.project-content {
+    width: 100%;
+    margin-top: 2%;
     background-color: #FFFFFF;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 0%),
         0 6px 20px 0 rgb(0 0 0 / 12%);
 }
 
-#nasa-info p {
+.projectApi {
+    padding: 2% 5%;
+}
+
+.font-h2 h2 {
+    display: flex;
+    padding-left: 5%;
+    font-weight: 400;
+    color: #1C91D0;
+}
+
+.project-content p {
     box-sizing: border-box;
-    padding: 0 0 0 20px;
+    padding-left: 5%;
     line-height: 0.4;
 }

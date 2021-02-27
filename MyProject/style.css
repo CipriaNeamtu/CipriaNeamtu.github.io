@@ -288,10 +288,3 @@ footer ul li {
 footer a {
     color: #1C91D0;
 }
-
-.font-h2 h2 {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    color: #1C91D0;
-}
