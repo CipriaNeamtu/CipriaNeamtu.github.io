@@ -1,3 +1,9 @@
+@media only screen and (max-width: 500px) {
+    body #main-projects {
+        margin: 20px 15px 20px 15px;
+    }
+}
+
 #main-projects {
     display: flex;
     margin: 20px 125px 75px 125px;

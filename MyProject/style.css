@@ -58,15 +58,36 @@
 
     /* header content */
     .set-header {
-        margin: 20px 50px 50px 50px;
+        margin: 15px 10px 20px 10px;
     }
 
     .set-header .dropdown {
         display: flex;
     }
 
+    .dropdown .dropdown-content a {
+        padding: 10px 7px;
+        font-size: 10px;
+    }
+
     .set-header .left-buttons {
-        font-size: 220%;
+        font-size: 13px;
+    }
+
+    .set-header .left-buttons p {
+        display: none;
+    }
+
+    body footer {
+        margin: 20px 15px 20px 15px;
+    }
+
+    footer a .fab {
+        font-size: 18px;
+    }
+
+    .under-line p {
+        font-size: 10px;
     }
 
     .col-1 {

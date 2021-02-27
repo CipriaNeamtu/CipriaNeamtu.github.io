@@ -1,3 +1,25 @@
+@media only screen and (max-width: 500px) {
+
+    body .content {
+        margin: 20px 15px 75px 15px;
+    }
+
+    .content .info {
+        width: 60%;
+        margin: 0 0 0 30px;
+        height: auto;
+    }
+
+    .content .slider {
+        width: 100%;
+    }
+
+    .slider .buttons {
+        width: 37%;
+        font-size: 14px;
+    }
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;

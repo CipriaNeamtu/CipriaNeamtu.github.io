@@ -14,23 +14,36 @@
 <body>
 
 </body>
-<header>
-    <div class="left-head">
-        <a href="../../pages/home/home.html">
-            <img src="../../assets/media/logo/logo.png" alt="logo">
-        </a>
-
-        <div class="left-buttons">
-            <a href="../../pages/home/home.html"><i class="fas fa-home"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i>
-                <p>Contact</p>
+<header class="set-header">
+    <div class="col-d-1 col-u-1 col-1">
+        <div class="col-d-2 col-u-2 col-2">
+            <a href="../../pages/home/home.html">
+                <img src="../../assets/media/logo/logo.png" alt="logo">
             </a>
+            <!-- left buttons -->
+            <div class="left-buttons ">
+                <a href="../../pages/home/home.html"><i class="fas fa-home fa-customize"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i>
+                    <p>Contact</p>
+                </a>
+            </div>
         </div>
-    </div>
 
-    <div class="right-buttons">
-        <a class="buttons" href="../about/about.html">About Me</a>
-        <a class="buttons" href="../../pages/hobbies/hobbies.html">Hobbies</a>
+        <!-- dropdown buttons -->
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fas fa-chevron-circle-down"></i>Info</button>
+            <div class="dropdown-content">
+                <a href="../../pages/about/about.html">About Me</a>
+                <a href="../../pages/projects/projects.html">Projects</a>
+                <a href="../../pages/hobbies/hobbies.html">Hobbies</a>
+            </div>
+        </div>
+
+        <!-- right buttons -->
+        <div class="col-d-3 col-u-3 col-3">
+            <a class="buttons" href="../../pages/about/about.html">About Me</a>
+            <a class="buttons" href="../../pages/projects/projects.html">Projects</a>
+        </div>
     </div>
 </header>
 
