@@ -8,16 +8,19 @@
         width: 60%;
         margin: 0 0 0 30px;
         height: auto;
+        font-size: 10px;
     }
 
     .content .slider {
         width: 100%;
+        font-size: 10px;
     }
 
     .slider .buttons {
         width: 37%;
         font-size: 14px;
     }
+
 }
 
 .content {
@@ -42,6 +45,20 @@ img[alt="profile"] {
     width: 40%;
     margin: 0 100px 0 35px;
     height: auto;
+    font-weight: 300;
+}
+
+.info h1 {
+    font-weight: 300;
+}
+
+.info h4 {
+    font-weight: 500;
+}
+
+.info a {
+    font-weight: 400;
+    color: #1C91D0;
 }
 
 .slider {

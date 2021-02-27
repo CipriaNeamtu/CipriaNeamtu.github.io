@@ -67,7 +67,7 @@
 
     .dropdown .dropdown-content a {
         padding: 10px 7px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .set-header .left-buttons {
@@ -164,7 +164,7 @@ img[alt="logo"] {
 .dropdown {
     display: none;
     flex-direction: column;
-    width: 20%;
+    width: 25%;
     margin: 12% 0 0 70%;
     position: absolute;
 }
@@ -180,6 +180,7 @@ img[alt="logo"] {
     justify-content: center;
     border-style: none;
     width: 100%;
+    padding: 7%;
     background-color: #FE5E00;
     color: whitesmoke;
     transition-duration: 0.4s;
