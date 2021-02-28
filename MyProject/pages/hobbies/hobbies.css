@@ -24,6 +24,7 @@
 
 #main-hobbies {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 20px 125px 75px 125px;
 }
@@ -33,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     width: 30%;
-    margin: 20px;
+    margin: 25px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -54,12 +55,12 @@
 }
 
 .categories p {
-    margin: 15px 60px;
+    margin: 35px 60px;
 }
 
 .categories .buttons {
     margin: 20px 10px;
-    width: 20%;
+    width: 28%;
     border-radius: 5px;
     padding: 10px;
 }
