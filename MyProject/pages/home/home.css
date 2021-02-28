@@ -21,6 +21,12 @@
         font-size: 14px;
     }
 
+    .slides-motion .hobbie-title {
+        font-size: 15px;
+        width: 25%;
+        bottom: 20%
+    }
+
 }
 
 .content {
@@ -161,7 +167,7 @@ img[alt="profile"] {
 }
 
 .slider p {
-    width: 70%;
+    width: 80%;
 }
 
 #slider-button {
