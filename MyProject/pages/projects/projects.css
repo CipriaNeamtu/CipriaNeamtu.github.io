@@ -8,7 +8,7 @@
     }
 
     #main-projects .project-content p {
-        margin: 0;
+        margin: 0 30px;
         line-height: 1.4;
     }
 }
@@ -21,15 +21,21 @@
 
 .project-content {
     width: 100%;
+    font-weight: 300;
     height: auto;
     margin-top: 2%;
     background-color: #FFFFFF;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 0%),
         0 6px 20px 0 rgb(0 0 0 / 12%);
+    border-radius: 10px
 }
 
 .projectApi {
     padding: 2% 5%;
+}
+
+.font-h2 {
+    padding: 10px;
 }
 
 .font-h2 h2 {

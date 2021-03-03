@@ -80,7 +80,7 @@
     }
 
     .set-header .left-buttons {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .set-header .left-buttons p {
@@ -92,8 +92,8 @@
     }
 
     header .modal-content {
-        width: 50%;
-        font-size: 10px;
+        width: 60%;
+        font-size: 15px;
     }
 
     body footer {
