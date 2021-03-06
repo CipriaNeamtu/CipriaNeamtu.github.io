@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MyProject/style.css">
+    <link rel="stylesheet" href="./MyProject/pages/home/home.css">
+    <link rel="icon" href="./MyProject/assets/media/icon/icon.ico">
+    <script src="https://kit.fontawesome.com/c1b6d50726.js" crossorigin="anonymous"></script>
+    <title>My Online CV</title>
+</head>
+
+<body>
+    <header class="set-header">
+        <div class="col-d-1 col-u-1 col-1">
+            <div class="col-d-2 col-u-2 col-2">
+                <a href="./MyProject/pages/home/home.html">
+                    <img src="./MyProject/assets/media/logo/logo.png" alt="logo">
+                </a>
+                <!-- Contact button -->
+                <div id="contactBtn" class="left-buttons">
+                    <a href="#"><i class="fas fa-envelope"></i>
+                        <p>Contact</p>
+                    </a>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <h2>Contact Information</h2>
+                        <h3><i class="fas fa-address-book"></i>Address:</h3>
+                        <p>6 Constantin Brancoveanu<br />
+                            500117, Brasov - Romania</p>
+                        <h3><i class="fas fa-mobile-alt"></i>Mobile phone:</h3>
+                        <p>+40 731 295 557</p>
+                        <h3><i class="fas fa-envelope-open"></i>E-mail:</h3>
+                        <p>ciprian.neamtu91@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- dropdown buttons -->
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="./MyProject/pages/about/about.html">About Me</a>
+                    <a href="../MyProject/pages/projects/projects.html">Projects</a>
+                    <a href="../MyProject/pages/hobbies/hobbies.html">Hobbies</a>
+                </div>
+            </div>
+
+            <!-- right buttons -->
+            <div class="col-d-3 col-u-3 col-3">
+                <a class="buttons" href="./MyProject/pages/about/about.html">About Me</a>
+                <a class="buttons" href="./MyProject/pages/projects/projects.html">Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <section class="profile">
+            <div>
+                <img src="./MyProject/assets/media/img/profile/ciprian.jpg" alt="profile">
+            </div>
+        </section>
+
+        <section class="info">
+            <div>
+                <h1>Hi,</h1>
+                <hr>
+                <h4> On this site you will find especially information about me, my career, my studies, projects and passions that I have developed in the past and still practice them.</h4>
+                <p>I am Ciprian, I am 29 years old and I currently work in a private company in Brasov, Romania as a marketing specialist.</p>
+                <p> For several years now, I have been wondering if I have chosen the right path in terms of my career. Thus, in 2020 I decided to make a change professionally and I enrolled in one of the courses offered by the Informal School of IT, more precisely, Web Development.</p>
+                <p> Although I studied a programming language in high school, and even learned some HTML, I can say that it does not compare with the experience and the multitude of information I encountered here. The first interaction with the teachers was very good and I realized that this is what I want to do next.</p>
+                <p> In conclusion, I am glad that I took part in this course, I learned how to lay the foundations of a site, how to structure the site from the very beginning and how to combine as elegantly as possible the three languages HTML, CSS and Java Script.</p>
+                <p> This is my first individual project, it is made 100% by me and I hope you like it too!</p>
+            </div>
+        </section>
+
+        <section class="slider">
+            <div id="slider-content">
+                <div id="slider-info">
+                    <div class="slides-motion">
+                        <div class="slides fade">
+                            <img src="./MyProject/assets/media/img/hobbies/cycling/header.jpg">
+                            <div class="hobbie-title">Cycling</div>
+                        </div>
+
+                        <div class="slides fade">
+                            <img src="./MyProject/assets/media/img/hobbies/hiking/header.jpg">
+                            <div class="hobbie-title">Hiking</div>
+                        </div>
+
+                        <div class="slides fade">
+                            <img src="./MyProject/assets/media/img/hobbies/travels/header.jpg">
+                            <div class="hobbie-title">Travels</div>
+                        </div>
+
+                        <div>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <p>Although I have several passions, I preferred to talk about only three of them, the passion for cycling, hiking and traveling around the world. I hugged them all not long ago, when I realized that my life is much too static and I felt the need for change.</p>
+                </div>
+                <div id="slider-button">
+                    <a class="buttons" href="./MyProject/pages/hobbies/hobbies.html">Hobbies</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/Timpulinimagini" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/ciprianeamtu" target="blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/CipriaNeamtu" target="blank"><i class=" fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ciprian-neamtu" target="blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <hr>
+        <div class="under-line">
+            <p>"Do not go where the path may lead, <br /> go instead where there is no path and leave a trail." - Ralph Waldo Emerson</p>
+            <p><i class="far fa-copyright"></i> 2021 My Online CV</p>
+        </div>
+    </footer>
+    <button id="goToTop"><i class="fas fa-arrow-circle-up"></i></button>
+
+    <script src="./MyProject/pages/home/home.js"></script>
+    <script src="./MyProject/all.js"></script>
+</body>
+
+</html>
