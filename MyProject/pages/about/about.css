@@ -1,23 +1,36 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     body #main-about {
         margin: 20px 15px 20px 15px;
         flex-wrap: wrap;
     }
 
-    body #left-content {
+    body #main-about #left-content {
         margin: 20px 0 0 0;
         border-radius: 15px 15px 0 0px;
         width: 100%;
     }
 
     #left-content #address {
-        font-size: 12px;
+        font-size: 14px;
         align-items: center;
     }
 
-    body #address ul {
-        font-size: 10px;
+    #about #name {
+        font-size: 30px;
     }
+
+    #about #function {
+        font-size: 25px;
+    }
+
+    #left-content #address p {
+        font-size: 15px;
+    }
+
+    body #address ul {
+        font-size: 15px;
+    }
+
 
     #left-content #pdf {
         font-size: 12px;
@@ -27,7 +40,7 @@
         font-size: 10px;
     }
 
-    body #right-content {
+    body #main-about #right-content {
         width: 100%;
         border-radius: 0 0 15px 15px;
         margin: 0px 0px 20px 0px;
@@ -57,19 +70,20 @@
     }
 }
 
-/* @media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1450px) {
 
     #main-about #left-content {
-        width: 40%;
+        width: 50%;
         margin: 20px 0 75px 20px;
     }
 
     #main-about #right-content {
-        width: 60%;
+        width: 50%;
         margin: 20px 20px 75px 0;
+        padding: 25px 35px;
     }
 
-} */
+}
 
 #main-about {
     display: flex;
@@ -104,7 +118,7 @@
 }
 
 #name {
-    font-size: 30px;
+    font-size: 1.9vw;
     margin: 15px 0 5px 0px;
 }
 
@@ -114,7 +128,7 @@
 
 #function {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.5vw;
     margin: 5px 0 15px 0px;
 }
 
@@ -136,8 +150,12 @@
     font-size: 17px;
 }
 
+#address p {
+    font-size: 0.9vw;
+}
+
 #address ul {
-    font-size: 15px;
+    font-size: 0.8vw;
 }
 
 #pdf {
@@ -179,7 +197,7 @@
 
 .right-info h4 {
     font-weight: 400;
-    font-size: 23px;
+    font-size: 2vw;
 }
 
 .right-info h5 {

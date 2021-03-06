@@ -23,6 +23,17 @@
     }
 }
 
+@media only screen and (max-width: 900px) {
+    #main-hobbies .categories {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #main-hobbies .categories p {
+        margin: 15px 30px;
+    }
+}
+
 #main-hobbies {
     display: flex;
     justify-content: center;

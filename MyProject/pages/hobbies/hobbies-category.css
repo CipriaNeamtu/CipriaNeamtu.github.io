@@ -11,6 +11,10 @@
     .all-hobbies .right-content {
         width: 95%;
     }
+
+    .right-content .hobbies-buttons .buttons {
+        font-size: 15px;
+    }
 }
 
 .all-hobbies {
@@ -63,4 +67,20 @@
     transform: scale(2.5);
     border-style: solid;
     border-color: #FE5E00;
+}
+
+.hobbies-buttons {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    padding: 10%;
+}
+
+.hobbies-buttons .buttons {
+    padding: 3%;
+    background-color: #1C91D0;
+}
+
+.hobbies-buttons .buttons:hover {
+    background-color: #FE5E00;
 }
