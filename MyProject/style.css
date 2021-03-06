@@ -156,6 +156,7 @@ body {
     font-family: Roboto;
     color: grey;
     font-size: 1vw;
+    margin: 0;
 }
 
 header {
@@ -399,4 +400,17 @@ footer a {
 #goToTop .fas {
     color: whitesmoke;
     font-size: 20px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+.sticky+.content {
+    padding-top: 1px;
 }
