@@ -62,6 +62,7 @@
 
     .set-header .dropdown {
         display: flex;
+        align-items: flex-end;
     }
 
     .dropdown .dropdown-content a {
