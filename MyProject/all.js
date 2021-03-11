@@ -43,15 +43,10 @@ topButton.onclick = () => {
 
 // Freeze Header
 
-// window.onscroll = function () {
-//     freeze()
-// };
-
 let header = document.getElementById("myHeader");
-// let sticky = header.offsetTop;
-let sticky = 1;
+let sticky = header.offsetTop;
 function freeze() {
-    if (window.pageYOffset > sticky) {
+    if (window.pageYOffset >= sticky) {
         header.classList.add("sticky");
     } else {
         header.classList.remove("sticky");

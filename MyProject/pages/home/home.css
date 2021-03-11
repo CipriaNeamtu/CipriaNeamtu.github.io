@@ -33,6 +33,11 @@
 
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .content {
     display: flex;
     justify-content: center;
