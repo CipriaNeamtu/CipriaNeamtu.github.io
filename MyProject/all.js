@@ -42,7 +42,6 @@ topButton.onclick = () => {
 }
 
 // Freeze Header
-
 let header = document.getElementById("myHeader");
 let sticky = header.offsetTop;
 function freeze() {

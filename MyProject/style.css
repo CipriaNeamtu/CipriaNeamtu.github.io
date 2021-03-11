@@ -7,9 +7,7 @@
     text-align: justify;
 }
 
-/* Desktops view: */
 @media only screen and (min-width: 500px) {
-
     .col-d-1 {
         display: flex;
         justify-content: space-between;
@@ -20,39 +18,31 @@
         display: flex;
     }
 
-    /* right buttons */
     .col-d-3 {
         display: flex;
         justify-content: flex-end;
         margin: 20px 100px 20px 0px;
         width: 400px;
     }
-
 }
 
-/* Tablets view: */
 @media only screen and (max-width: 768px) {
-
-    /* header content */
     .col-u-1 {
         display: flex;
         width: 100%;
     }
 
-    /* logo */
     .col-u-2 {
         display: flex;
         margin-left: -50px;
     }
 
-    /* right buttons */
     .col-u-3 {
         display: flex;
         justify-content: flex-end;
         margin: 20px 20px 20px 0px;
         width: 400px;
     }
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -65,11 +55,7 @@
     }
 }
 
-
-/* Mobile phones view: */
 @media only screen and (max-width: 500px) {
-
-    /* header content */
     .set-header {
         margin: 15px 10px 20px 10px;
     }
@@ -125,13 +111,11 @@
         position: relative;
     }
 
-    /* logo */
     .col-2 {
         display: flex;
         width: 85%;
     }
 
-    /* right buttons */
     .col-3 {
         display: none;
     }
@@ -144,7 +128,6 @@
     body #goToTop .fas {
         font-size: 15px;
     }
-
 }
 
 a:link {
@@ -367,7 +350,6 @@ footer ul li {
 
 .fab {
     font-size: 125%;
-    /* 25px */
 }
 
 .fal {
@@ -402,16 +384,10 @@ footer a {
     font-size: 20px;
 }
 
-
 .sticky {
-    display: block;
     position: fixed;
     top: 0;
     width: 100%;
     margin: 0;
     z-index: 1;
 }
-
-/* .sticky+.content {
-    padding-top: 1px;
-} */

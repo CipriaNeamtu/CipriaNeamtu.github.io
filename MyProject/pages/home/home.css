@@ -1,5 +1,4 @@
 @media only screen and (max-width: 500px) {
-
     body .content {
         margin: 20px 15px 75px 15px;
     }
@@ -30,7 +29,6 @@
     .slider #slider-content {
         margin: 30px 30px;
     }
-
 }
 
 html,
