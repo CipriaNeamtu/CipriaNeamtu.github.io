@@ -153,7 +153,7 @@ a:link {
 
 body {
     background-color: #FAFAFA;
-    font-family: Roboto;
+    font-family: Roboto, 'Segoe UI';
     color: grey;
     font-size: 1vw;
     margin: 0;
@@ -404,6 +404,7 @@ footer a {
 
 
 .sticky {
+    display: block;
     position: fixed;
     top: 0;
     width: 100%;
@@ -411,6 +412,6 @@ footer a {
     z-index: 1;
 }
 
-.sticky+.content {
+/* .sticky+.content {
     padding-top: 1px;
-}
+} */

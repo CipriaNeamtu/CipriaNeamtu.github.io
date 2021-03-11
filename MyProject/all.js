@@ -21,6 +21,7 @@ window.onclick = function (event) {
 let topButton = document.getElementById("goToTop");
 window.onscroll = function () {
     scrollFunction()
+    freeze()
 };
 
 function scrollFunction() {
@@ -40,13 +41,16 @@ topButton.onclick = () => {
     topFunction();
 }
 
+// Freeze Header
 
-window.onscroll = function () { myFunction() };
+// window.onscroll = function () {
+//     freeze()
+// };
 
 let header = document.getElementById("myHeader");
-let sticky = header.offsetTop;
-
-function myFunction() {
+// let sticky = header.offsetTop;
+let sticky = 1;
+function freeze() {
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
     } else {
