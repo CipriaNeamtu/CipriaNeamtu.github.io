@@ -1,0 +1,325 @@
+body {
+  font-family: $main-font;
+  font-weight: $main-weight;
+  background-color: $background;
+}
+
+/* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 768px) {
+//    .cart-section {
+//      width: 100%;
+//     //  height: 100%;
+//    }
+
+// }
+    
+// @media only screen and (min-width: 1200) {
+ 
+  // This class is used for About & Contact pages.
+  .central-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 125px;
+    padding: 60px 50px 20px 50px;
+    width: 650px;
+    height: 425px;
+    background-color: $white;
+  }
+
+  // Nav Component
+  nav {
+    .logo {
+      font-size: 30px;
+    }
+
+    display: flex;
+    padding: 30px 75px 30px 75px;
+    justify-content: space-between;
+    align-items: center;
+
+    .right-content {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-buttons {
+      display: flex;
+      margin-right: 100px;
+    }
+
+    .search-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 75px;
+      width: 100px;
+      height: 96px;
+      background-color: $search;
+    }
+
+    hr {
+      display: flex;
+    }
+  }
+
+  .btn-spacing {
+  padding-right: 50px;
+  }
+
+  .hr-color {
+    color: $gray;
+    margin: 0;
+  }
+
+  // Home Page
+  .home-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+  }
+  .cart-section {
+    width: 30%;
+    height: 100%;
+  }
+
+  .cart-info {
+    width: 260px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 35px;
+    color: $white;
+    background-color: $light-blue;
+
+    > div:first-of-type {
+         padding-bottom: 30px;
+       }
+
+    .icon {
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 20px;
+      color: $very-light-blue;
+    }
+
+     .clear-btn {
+       display: flex;
+       flex-direction: row-reverse;
+       padding-top: 20px;
+     }
+  }
+
+  .cart-title {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .cart {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 2px;
+    width: 250px;
+    height: 30%;
+    min-height: 150px;
+    border: solid 3px $very-light-blue;
+    border-style: dashed;
+
+    .cart-message.hide {
+      display: none;
+    }
+
+    .cart-message {
+      display: block;
+    }
+
+    .product-in-cart {
+      display: none;
+    }
+
+    .product-in-cart.show {
+      display: block;
+      flex-direction: column;
+      position: absolute;
+      top: 5px;
+      width: 200px;
+
+      .product-added {
+        margin: 5px;
+        padding: 5px 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background-color: $dark-blue;
+      }
+
+      span {
+        padding: 0 10px;
+        color: $accent;
+      }
+   }
+  }
+
+  .products-section.hide {
+    display: none;
+  }
+
+  .products-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100%;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    img {
+      width: 237px;
+      height: 234px;
+    }
+
+    div {
+      width: 237px;
+      height: 100px;
+      background-color: $white;
+
+      h3 {
+        color: $dark-text;
+        padding-left: 30px;
+      }
+
+      p {
+        color: $light-text;
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .addProduct-section {
+    display: none;
+  }
+
+  .addProduct-section.show {
+    position: relative;
+    display: block;
+    width: 55%;
+    color: $white;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+    .addProduct-container {
+      display: flex;
+      width: 100%;
+      padding-bottom: 20px;
+      background-color: $light-blue;
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 50%;
+        margin: 40px 20px 0 60px;
+
+        .addProduct-title {
+          @extend .cart-title;
+          padding: 0;
+        }
+        p {
+          font-size: 15px;
+          line-height: 20px;
+          color: $very-light-blue;
+        }
+      }
+
+      .addProduct-button {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        min-height: 100%;
+
+      .button.switch {
+        background-color: $dark-accent;
+        padding: 15px 60px;
+        cursor: none;
+      }
+
+        .button {
+          background-color: $accent;
+          padding: 15px 60px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .close-section {
+      color: $light-blue;
+      position: absolute;
+      top: -30px;
+      right: -15px;
+      cursor: pointer;
+    }
+  }
+
+  // About Page
+  .circle {
+    display: flex;
+    align-items: center;
+    border: 4px solid $light-blue;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+  }
+
+  .contact-icon {
+    padding-left: 11px;
+    color: $light-blue;
+  }
+
+  .upper-title {
+    padding-top: 25px;
+    text-transform: uppercase;
+    color: $dark-text;
+  }
+
+  .about-text {
+    margin: 0 95px;
+    padding-top: 25px;
+    font-size: 18px;
+    color: $light-text;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  // Contact Page
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    font-size: 18px;
+    color: $light-text;
+  }
+
+  .contact-info {
+    margin: 10px 0;
+  }
+
+// }
